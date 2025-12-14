@@ -35,8 +35,9 @@ btngreet.addEventListener("click", () => {
     if (input.value === "") {
         alert("Enter Your Name")
     } else {
-        headText.innerText = headText.innerText + ", " + input.value + " Welcome";
+        headText.innerText = headText.innerText + ", " + input.value + "  Welcome";
     }
 
 
 })
+
